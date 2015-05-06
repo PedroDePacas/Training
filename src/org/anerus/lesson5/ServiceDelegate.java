@@ -10,9 +10,9 @@ public class ServiceDelegate {
     public ArrayElement[] mergeArrays(ArrayElement[] objectLeftArray, ArrayElement[] objectRightArray) {
         printObjectArray(objectLeftArray);
         printObjectArray(objectRightArray);
-        ArrayElement[] resultArray = arrayHelper.mergeArrays(objectLeftArray, objectRightArray);
-        printObjectArray(resultArray);
-        return resultArray;
+        ArrayElement[] objectResultArray = arrayHelper.mergeArrays(objectLeftArray, objectRightArray);
+        printObjectArray(objectResultArray);
+        return objectResultArray;
     }
 
     // Вывод масивов
